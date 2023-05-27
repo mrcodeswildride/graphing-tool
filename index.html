@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Graphing Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Graphing Tool</h1>
+
+    <p>
+      Type the right side of the equation. Examples: x * 2, Math.pow(x, 2), Math.sin(x)
+    </p>
+
+    <canvas width="400" height="400" id="canvas"></canvas>
+
+    <div>
+      y =
+      <input type="text" autocomplete="off" id="equation" />
+      <button id="graphButton">Graph</button>
+    </div>
+
+    <p id="errorParagraph"></p>
+  </body>
+</html>
